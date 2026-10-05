@@ -125,7 +125,7 @@ device = torch.device(
 retinal_model = UNet().to(device)
 
 checkpoint = torch.load(
-    "/content/ocuneuro_unet_best.pth",
+    "ocuneuro_unet_best.pth",
     map_location=device
 )
 
