@@ -15,15 +15,15 @@ from torchvision.transforms import InterpolationMode
 # ==========================================
 
 clinical_model = joblib.load(
-    "/content/ocuneuro_clinical_model.pkl"
+     "ocuneuro_clinical_model.pkl"
 )
 
 clinical_features = joblib.load(
-    "/content/ocuneuro_clinical_features.pkl"
+     "ocuneuro_clinical_features.pkl"
 )
 
 clinical_threshold = joblib.load(
-    "/content/ocuneuro_clinical_threshold.pkl"
+     "ocuneuro_clinical_threshold.pkl"
 )
 
 
